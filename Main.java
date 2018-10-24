@@ -234,7 +234,17 @@ class Main
         /*
          * Task 11.  Reverse the order of elements in ar2
          */
-        
+         System.out.println("** Task 11 ** ");
+       
+         for (int i=0 ; i<ar2.length ; i++)
+             System.out.println(ar2[i]);
+             
+             int temp11=ar2[ar2.length-1];
+             
+             
+            
+          
+         
         
         /*
          * Task 12: 
