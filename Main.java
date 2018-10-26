@@ -269,6 +269,33 @@ class Main
          *  
          *  Count how many words have more than 5 letters.
          */
+         String[] ar5=new String[16];
+         ar5[0]="Four";
+         ar5[1]="score";
+         ar5[2]="and";
+         ar5[3]="seven";
+         ar5[4]="years";
+         ar5[5]="ago";
+         ar5[6]="our";
+         ar5[7]="fathers";
+         ar5[8]="brought";
+         ar5[9]="forth";
+         ar5[10]="on";
+         ar5[11]="this";
+         ar5[12]="continent";
+         ar5[13]="a";
+         ar5[14]="new";
+         ar5[15]="nation";
+         int count5=0;
+ 
+         for (int i=0 ; i<ar5.length ; i++)
+         {
+             if (ar5[i].length()>5)
+             count5++;
+            }
+ 
+            System.out.println(" TASK 12: is " + count5);
+            
         
         /*
          * Task 13
@@ -284,6 +311,14 @@ class Main
          * Use a for loop to print out the names of monster that start with
          * a vowel
          */
+        System.out.println("** task 13**");
+        String[] monsterArray={ "Cookie",  "Grover",  "Oscar the Grouch" , "Elmo", "Rosita"};
+        String m =monsterArray[0]; 
+        int i = 0;
+        char c = monsterArray[i].toLowerCase().charAt(0);
+        if (c == 'a' || c == 'e'|| c =='i' || c == 'o' || c== 'b')
+        
+
         
          /*
           * Task 14
@@ -312,4 +347,5 @@ class Main
           */
         
     }
+
 }
