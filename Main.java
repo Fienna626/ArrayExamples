@@ -315,8 +315,14 @@ class Main
         String[] monsterArray={ "Cookie",  "Grover",  "Oscar the Grouch" , "Elmo", "Rosita"};
         String m =monsterArray[0]; 
         int i = 0;
-        char c = monsterArray[i].toLowerCase().charAt(0);
-        if (c == 'a' || c == 'e'|| c =='i' || c == 'o' || c== 'b')
+        char c = monsterArray[i].charAt(0);
+        for (i = 0; i<monsterArray.length; i++)
+        {
+        if (c == 'A' || c == 'E'|| c =='I' || c == 'O' || c == 'U')
+        {
+            System.out.println(monsterArray);
+        }
+        }
         
 
         
