@@ -1,25 +1,43 @@
+import java.util.*;
+
 public class recursionDriver
 {
  public static int count(int n)
- /* Task 1
  {
-     if (n <1)
-      return 0;
-  
-      return 4+count(n-1);
- }
- */
-  {
-      /*
-    if (n<= 1)
-        return 20;
-        return 20 +count(n-1);
-    */
+/*
+ * Task 1
+ if (n <1)
+   return 0;
+   return 4+count(n-1);
+ 
+*/
+
+/* 
+ * task 2
+ if (n<= 1)
+   return 20;
+   return 20 +count(n-1);
+   
+*/
+/*
+    * Task 3
    if (n<= 1)
     return 0;
     
     return 5+count(n-1);
-   
+   */
+/*
+ * 
+ 
+  if (n <= 0)
+    return 0;
+    
+    return n + count(n-2);
+    */
+    if (n <= 2)
+    return 2;
+    
+    return n + count(n-2);
   }
  
  
@@ -48,9 +66,19 @@ public class recursionDriver
  */
 /*
  int counted=0;
- // Task 2.
+ // Task 3.
  counted = count(9);
  System.out.println(counted);
  */
+/*
+int counted=0;
+ // Task 4.
+ counted = count(9);
+ System.out.println(counted);
+ */
+int counted=0;
+ // Task 4.
+ counted = count(12);
+ System.out.println(counted);
  }
 }
